@@ -8,6 +8,7 @@ Welcome to my GitHub repository! This repository contains two Python files: `mai
   - [main.py](#mainpy)
   - [png2custom.py](#png2custompy)
 - [Installation](#installation)
+- [Example](#example)
 - [License](#license)
 
 ## Introduction
@@ -65,6 +66,19 @@ To run `png2custom.py`, use the following command:
 python png2custom.py "png_image_location+name" "custom_image_location+name"
 ```
 
+## Example
+
+For Running `main.py` :
+```bash
+python main.py file.custom
+```
+
+For Running `png2custom.py` :
+```bash
+python png2custom.py file.png file.custom
+```
+
+
 ## Contributing
 
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
@@ -79,18 +93,6 @@ Contributions are welcome! If you would like to contribute to this project, plea
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Example
-
-For Running `main.py` :
-```bash
-python main.py file.custom
-```
-
-For Running `png2custom.py` :
-```bash
-python png2custom.py file.png file.custom
-```
 
 ---
 
