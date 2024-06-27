@@ -65,8 +65,6 @@ To run `png2custom.py`, use the following command:
 python png2custom.py "png_image_location+name" "custom_image_location+name"
 ```
 
-[Add any additional instructions or examples for running png2custom.py]
-
 ## Contributing
 
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
