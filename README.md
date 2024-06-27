@@ -80,6 +80,18 @@ Contributions are welcome! If you would like to contribute to this project, plea
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Example
+
+For Running `main.py` :
+```bash
+python main.py file.custom
+```
+
+For Running `png2custom.py` :
+```bash
+python png2custom.py file.png file.custom
+```
+
 ---
 
 Thank you for visiting my GitHub repository! You can view more of my projects on my [GitHub profile](https://github.com/ayush-mann-0).
