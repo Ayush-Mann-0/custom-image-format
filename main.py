@@ -60,7 +60,7 @@ if __name__ == "__main__":
 
     pygame.init()
     window = pygame.display.set_mode((width, height))
-    pygame.display.set_caption('SPIF Image Viewer')
+    pygame.display.set_caption('Custom Image Viewer')
 
     running = True
     while running:
