@@ -1,42 +1,56 @@
 # Custom Python Projects
 
-Welcome to my GitHub repository! This repository contains two Python files: `main.py` and `png2custom.py`. These projects demonstrate my skills in Python programming and image processing.
+Welcome to my GitHub repository! This repository contains three Python files: `load.py`, `convert.py`, and `start.py`. These projects demonstrate my skills in Python programming and image processing.
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Project Descriptions](#project-descriptions)
-  - [main.py](#mainpy)
-  - [png2custom.py](#png2custompy)
+- [Project Destartions](#project-destartions)
+  - [load.py](#loadpy)
+  - [convert.py](#convertpy)
+  - [start.py](#startpy)
 - [Installation](#installation)
+- [Usage](#usage)
 - [Example](#example)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
 
-This repository showcases my work on two distinct Python scripts. Each script serves a unique purpose and highlights different aspects of my programming abilities.
+This repository showcases my work on three distinct Python starts. Each start serves a unique purpose and highlights different aspects of my programming abilities.
 
-## Project Descriptions
+## Project Destartions
 
-`main.py` is a Python script designed to decode the custom image format back to what it originally was. Here are some of its key features:
+### load.py
 
-- Easy Decoding thanks to Binary
-- Easy to Understand
-- Beginner Friendly
+`load.py` is a Python script designed to decode a custom image format and display it using Pygame. Here are some of its key features:
 
-`png2custom.py` is a Python script aimed at converting 'png' format to a Custom Format, which ofcourse can later be decoded and opened using `main.py`. Key functionalities include:
+- Easy decoding of binary image formats.
+- Uses Pygame for rendering the image.
+- Beginner friendly.
 
-- Easy and Fast Conversion of PNG to a Custom Format
-- Easy to Use
+### convert.py
+
+`convert.py` is a Python script aimed at converting PNG images to a custom format, which can later be decoded and opened using `load.py`. Key functionalities include:
+
+- Easy and fast conversion of PNG to a custom format.
+- Simple to use with clear command-line arguments.
+
+### start.py
+
+`start.py` is a versatile script that handles two functionalities: loading and displaying a custom image format using Pygame (`load` mode) and converting PNG images to a custom format (`convert` mode). Key features include:
+
+- Versatile start with dual functionality.
+- Combines the functionalities of `load.py` and `convert.py`.
+- Clear and easy command-line interface.
 
 ## Installation
 
 To get started with these projects, follow the steps below:
 
-1. Clone this repository to your local machine ( Requires GIT to be installed) :
+1. Clone this repository to your local machine (Requires Git to be installed):
 
    ```bash
    git clone https://github.com/yourusername/custom-python-projects.git
-   
    cd custom-python-projects
    ```
 
@@ -48,47 +62,74 @@ To get started with these projects, follow the steps below:
 
 ## Usage
 
-Here's how you can use each script:
+Here's how you can use each start:
 
-### Running main.py
+### Running load.py
 
-To run `main.py`, use the following command:
+To run `load.py`, use the following command:
 
 ```bash
-python main.py "image_location"
+python load.py <custom_image_path>
 ```
 
-### Running png2custom.py
+### Running convert.py
 
-To run `png2custom.py`, use the following command:
+To run `convert.py`, use the following command:
 
 ```bash
-python png2custom.py "png_image_location+name" "custom_image_location+name"
+python convert.py <png_image_path> <custom_image_path>
+```
+
+### Running start.py
+
+To run `start.py` in `load` mode, use the following command:
+
+```bash
+python start.py load <custom_image_path>
+```
+
+To run `start.py` in `convert` mode, use the following command:
+
+```bash
+python start.py convert <png_image_path> <custom_image_path>
 ```
 
 ## Example
 
-For Running `main.py` :
+### Running load.py:
+
 ```bash
-python main.py file.custom
+python load.py file.custom
 ```
 
-For Running `png2custom.py` :
+### Running convert.py:
+
 ```bash
-python png2custom.py file.png file.custom
+python convert.py file.png file.custom
 ```
 
+### Running start.py in `load` mode:
+
+```bash
+python start.py load file.custom
+```
+
+### Running start.py in `convert` mode:
+
+```bash
+python start.py convert file.png file.custom
+```
 
 ## Contributing
 
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some feature'`)
-5. Push to the branch (`git push origin feature-branch`)
-6. Create a new Pull Request
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a new Pull Request.
 
 ## License
 
@@ -97,8 +138,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Thank you for visiting my GitHub repository! You can view more of my projects on my [GitHub profile](https://github.com/ayush-mann-0).
-```
-
-Replace placeholders like `[brief description of what main.py does]`, `Feature 1`, and `[your-email@example.com]` with actual details about your projects and contact information.
-
-Feel free to provide more specific details or ask for further customization.
